@@ -1,0 +1,191 @@
+body{
+	font-family: Arial;
+}
+
+#load{
+	position: fixed;
+	opacity: 0.4;
+	width: 25vw;
+	height: 25vw;
+	margin-top:12%;
+	margin-left:37%;
+
+	z-index:1001;
+
+}
+#grid{
+	position: fixed;
+	opacity: 0.4;
+	width: 16vw;
+	height: 16vw;
+	margin-top:17%;
+	margin-left:10%;
+	display:none;
+	z-index:1000;
+
+}
+.box{
+	width:1.5vw;
+	height:1.5vw;
+	background-color: #bbbbbb;
+	margin: 0.05vw;
+
+	display: inline-block;
+	float:left;
+}
+
+
+#footer{
+	position : absolute;
+    vertical-align: center;
+    bottom : 0;
+    height : 8%;
+    width:98%;
+}
+
+.projTitle{
+	text-align: center;
+/*	padding-top: 1.5%;
+*/	
+	
+	width:24%;
+	height:100%;
+	position: relative;
+	display: inline-block;
+}
+.projTitle p{
+	vertical-align: middle;
+}
+
+#op1{
+	display: block;
+	position: absolute;
+	margin-right: 1.33%;
+}
+
+#op4{
+	float:right;
+	margin-left: 1.33%;
+}
+
+#op3{
+	float: right;
+	margin-left: 1.33%;
+}
+
+#op2{
+	float: right;
+}
+
+
+
+
+td{
+	height:30px;
+	width:100px;
+	text-align: center;
+}
+td:hover,.projTitle:hover{
+	background-color:#222222;
+	color:white;
+}
+
+
+
+.content{
+	position: absolute;
+	padding-left: 32vw;
+	width:700vw;
+	height: 70%;
+	/*background-color:#aaaaaa;*/
+
+	display: none;
+	margin-top:3%;
+	z-index: 0;
+
+}
+
+
+/*#operation1{
+	background-color: blue;
+}
+#operation2{
+	background-color: green;
+}
+#operation3{
+	background-color: red;
+}
+#operation4{
+	background-color: #1f3f4e;
+}*/
+.interior{
+	width:10%;
+	height:10%;
+	background-color:white;
+	display:inline-block;
+	float: left;
+	margin-left:10%;
+}
+
+/*#navBar{
+	position: fixed;
+	width: auto;
+	height:70%;
+	border: 1px solid black;
+	margin-left:10%;
+	margin-top:10%;
+	z-index:1000;
+}
+
+*/
+
+img{
+
+	width: 35vw;
+}
+
+
+#blurb{
+	position: relative;
+	background-color:rgba(0,0,0,0);
+	outline:500px solid rgba(0,0,0,0.9);
+	width: 40%;
+	height:40vw;
+	margin: auto;
+	margin-top:5vw;
+	/*margin:-15% -6%;*/
+	color: white;
+	display: none;
+	pointer-events:none;
+}
+#blurb p{
+	border:0px solid white;
+	position:relative;
+	width:80%;
+	height:15%;
+	text-align: center;
+	margin:auto;
+	padding-top:48%;
+/*	padding:45% 32%;*/
+	font-style: italic;
+	opacity :0;
+
+}
+#title{
+	position: fixed;
+	top:-5%;
+	z-index: 1100;
+}
+h1{
+	font-size: 6vw;
+}
+h2{
+	font-size: 2vw;
+}
+h3{
+	font-size: 1.5vw;
+}
+
+#title:hover{
+	color: white;
+}
